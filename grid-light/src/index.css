@@ -1,0 +1,16 @@
+.boxes {
+  display: flex;
+  width: 320px;
+  flex-wrap: wrap;
+}
+
+.boxes .item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  flex: 0 0 auto;
+}
+
+.boxes .item.active {
+  background-color: green;
+}
